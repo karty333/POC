@@ -1,4 +1,4 @@
 FROM tomcat
 MAINTAINER Karthik Kangeyan S
-COPY pom.xml /usr/
+COPY ./project/target/test.txt /usr/
 
