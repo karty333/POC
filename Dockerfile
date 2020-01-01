@@ -1,4 +1,4 @@
 FROM tomcat
 MAINTAINER Karthik Kangeyan S
-COPY ./project/target/*.txt /usr/
+COPY ./project/target/*.war /usr/
 
