@@ -2,7 +2,7 @@ resources:
   repositories:
   - repository: Shared_Templates
     type: github
-    endpoint: MyGitHubServiceConnection
+    endpoint: karty333
     name: karty333/Shared_Templates
 pool:
   vmImage: ubuntu-latest
