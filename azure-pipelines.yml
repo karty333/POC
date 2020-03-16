@@ -7,7 +7,7 @@ resources:
 pool:
   vmImage: ubuntu-latest
 stages:
-  - template: Shared_Templates/MavenTemplate.yml
+  - template: karty333/Shared_Templates/MavenTemplate.yml
   - template: Shared_Templates/ArtifactoryTemplate.yml
   - template: Shared_Templates/ArtifactoryDownload.yml
  
