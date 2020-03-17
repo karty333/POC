@@ -9,6 +9,7 @@ pool:
 steps:
   - checkout: self
   - checkout: Shared_Templates
+stages:
 - template: MavenTemplate.yml@Shared_Templates
 - template: ArtifactoryTemplate.yml@Shared_Templates
 - template: ArtifactoryDownload.yml@Shared_Templates
