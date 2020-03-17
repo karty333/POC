@@ -8,7 +8,7 @@ pool:
   vmImage: ubuntu-latest
 stages:
  - stage: Install
-  jobs: 
+   jobs: 
     - job: npminstall
       steps:
        - checkout: self
