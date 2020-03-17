@@ -13,7 +13,7 @@ steps:
         echo "hello to my first Build"
         ls -la Shared_Templates
         mv Shared_Templates Hello/
-  - template: Shared_Templates/MavenTemplate.yml
-  - template: Shared_Templates/ArtifactoryTemplate.yml
-  - template: Shared_Templates/ArtifactoryDownload.yml
+  - template: MavenTemplate.yml
+  - template: ArtifactoryTemplate.yml
+  - template: ArtifactoryDownload.yml
  
