@@ -16,4 +16,5 @@ stages:
  - template: MavenTemplate.yml@Shared_Templates
  - template: ArtifactoryTemplate.yml@Shared_Templates
  - template: ArtifactoryDownload.yml@Shared_Templates
+ - template: CheckReleaseapproval.yml@Shared_Templates
  
