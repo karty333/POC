@@ -9,7 +9,7 @@ pool:
 stages:
  - stage: Checkout
    jobs: 
-    - job: Checkout Templates and Code
+    - job: Checkout_Templates_and_Code
       steps:
        - checkout: self
        - checkout: Shared_Templates
