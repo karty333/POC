@@ -7,9 +7,9 @@ resources:
 pool:
   vmImage: ubuntu-latest
 stages:
- - stage: Install
+ - stage: Checkout
    jobs: 
-    - job: npminstall
+    - job: Checkout Templates and Code
       steps:
        - checkout: self
        - checkout: Shared_Templates
