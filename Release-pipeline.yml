@@ -1,4 +1,7 @@
-
+parameters:
+- name: Artifact_Version
+  displayName: Artifact version for Deployment
+  default: ''
 resources:
   repositories:
   - repository: Shared_Templates
