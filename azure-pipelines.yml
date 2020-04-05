@@ -5,7 +5,7 @@ resources:
     endpoint: karty333
     name: karty333/Shared_Templates
 pool:
-  vmImage: ubuntu-latest
+  vmImage: ubuntu-latest #image name
 stages:
  - stage: Checkout
    jobs: 
@@ -17,4 +17,5 @@ stages:
  - template: ArtifactoryTemplate.yml@Shared_Templates
  - template: ArtifactoryDownload.yml@Shared_Templates
  - template: CheckReleaseapproval.yml@Shared_Templates
+ 
  
