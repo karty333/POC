@@ -1,0 +1,18 @@
+
+resources:
+  repositories:
+  - repository: Shared_Templates
+    type: github
+    endpoint: karty333
+    name: karty333/Shared_Templates
+pool:
+  vmImage: ubuntu-latest #image name
+stages:
+ - stage: Checkout
+   jobs: 
+    - job: Checkout_Templates_and_Code
+      steps:
+       - checkout: self
+       - checkout: Shared_Templates
+ - template: ArtifactoryDownload.yml@Shared_Templates
+ - template: CheckReleaseapproval.yml@Shared_Templates
