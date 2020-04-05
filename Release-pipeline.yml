@@ -18,4 +18,6 @@ stages:
        - checkout: self
        - checkout: Shared_Templates
  - template: ArtifactoryDownload.yml@Shared_Templates
+   parameters:
+     Artifact_Version: ${{ parameters.Artifact_version }}
  - template: CheckReleaseapproval.yml@Shared_Templates
