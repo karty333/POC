@@ -20,4 +20,4 @@ stages:
  - template: artifactory_download.yml@Shared_Templates  # appropriate templates will be called in sequence according to the project 
    parameters:                                         # requirements.
      Artifact_Version: ${{ parameters.Artifact_version }}
- - template: CheckReleaseapproval.yml@Shared_Templates
+ - template: check_release_approval.yml@Shared_Templates
