@@ -13,6 +13,6 @@ stages:
       steps:
        - checkout: self                # Checkout the current project repo
        - checkout: Shared_Templates    # Checkout the Shared_Templates
- - template: MavenTemplate.yml@Shared_Templates  # appropriate templates will be called in sequence according to the project requirements.
- - template: ArtifactoryTemplate.yml@Shared_Templates
+ - template: maven_template.yml@Shared_Templates  # appropriate templates will be called in sequence according to the project requirements.
+ - template: artifactory_upload.yml@Shared_Templates
  
