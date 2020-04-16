@@ -5,7 +5,7 @@ resources:                          # To pull the shared templates to be availab
     endpoint: karty333
     name: karty333/Shared_Templates
 pool:
-  vmImage: ubuntu-latest               #image name(if Microsoft-hosted) or agent pool name (if self-hosted)
+  vmImage: ubuntu-latest               # image name(if Microsoft-hosted) or agent pool name (if self-hosted)
 stages:
  - stage: Checkout
    jobs: 
