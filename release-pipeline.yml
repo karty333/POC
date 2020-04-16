@@ -17,7 +17,7 @@ stages:
       steps:
        - checkout: self              # Checkout the current project repo
        - checkout: Shared_Templates  # Checkout the Shared_Templates
- - template: ArtifactoryDownload.yml@Shared_Templates  # appropriate templates will be called in sequence according to the project 
+ - template: artifactory_download.yml@Shared_Templates  # appropriate templates will be called in sequence according to the project 
    parameters:                                         # requirements.
      Artifact_Version: ${{ parameters.Artifact_version }}
  - template: CheckReleaseapproval.yml@Shared_Templates
