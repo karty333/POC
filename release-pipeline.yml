@@ -21,3 +21,17 @@ stages:
    parameters:                                         # requirements.
      Artifact_Version: ${{ parameters.Artifact_version }}
  - template: jboss_test.yml@Shared_Templates
+   parameters:
+     stage: 'Dev'
+     job: 'jboss_deployment_dev'
+     env: 'dev'
+ - template: jboss_test.yml@Shared_Templates
+   parameters:
+     stage: 'QA'
+     job: 'jboss_deployment_qa'
+     env: 'qa'
+ - template: jboss_test.yml@Shared_Templates
+   parameters:
+     stage: 'PROD'
+     job: 'jboss_deployment_prod'
+     env: 'PROD'
