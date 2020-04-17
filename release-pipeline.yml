@@ -1,7 +1,7 @@
 parameters:                          # Provide artifact version to be deployed as input parameter for 'Artifact_Version' variable 
 - name: Artifact_Version             # while triggering release pipeline.
   displayName: Artifact version for Deployment
-  default: ''
+  default: 'latest'
 resources:
   repositories:
   - repository: Shared_Templates     # To pull the shared templates to be available for current pipeline.
