@@ -1,3 +1,4 @@
+trigger: none
 parameters:                          # Provide artifact version to be deployed as input parameter for 'Artifact_Version' variable 
 - name: Artifact_Version             # while triggering release pipeline.
   displayName: Artifact version for Deployment
