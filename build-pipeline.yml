@@ -1,3 +1,7 @@
+trigger:
+  branches:
+    include:
+    - release
 resources:                          # To pull the shared templates to be available for current pipeline.
   repositories:
   - repository: Shared_Templates
