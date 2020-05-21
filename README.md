@@ -1,2 +1,2 @@
-[![Build Status](https://dev.azure.com/SCMSandpit/Sailpoint/_apis/build/status/WoolworthsSOISaml.SailpointUPA?branchName=release_May)](https://dev.azure.com/SCMSandpit/Sailpoint/_build/latest?definitionId=20&branchName=release_May)
+[![Build Status](https://dev.azure.com/karthisubbu333/POC/_apis/build/status/POC-Build?branchName=master)](https://dev.azure.com/karthisubbu333/POC/_build/latest?definitionId=60&branchName=master)
 ### CI-with-AzureDevOps-Demo
